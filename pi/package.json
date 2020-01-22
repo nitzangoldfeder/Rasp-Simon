@@ -1,0 +1,16 @@
+{
+  "name": "mpr121",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adafruit-mpr121": "github:adafruit/node_mpr121",
+    "play-sound": "^1.1.3",
+    "socket.io": "^2.3.0"
+  }
+}

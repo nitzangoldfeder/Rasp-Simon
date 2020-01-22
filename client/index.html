@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="icons-input">
+      <input type="text" data-color-div-id="red-circle" id="red-icon" placeholder="Red Icon" />
+      <input type="text" data-color-div-id="yellow-circle" id="yellow-icon" placeholder="Yellow Icon" />
+      <input type="text" data-color-div-id="green-circle" id="green-icon" placeholder="Green Icon" />
+      <input type="text" data-color-div-id="blue-circle" id="blue-icon" placeholder="Blue Icon" />
+    </div>
+    <div id="root">
+      <div>
+        <div id="red-circle" class="half-circle-size">-</div>
+        <div id="green-circle" class="half-circle-size">-</div>
+      </div>
+      <div id="controller">
+        התחל
+      </div>
+      <div>
+        <div id="yellow-circle" class="half-circle-size">-</div>
+        <div id="blue-circle" class="half-circle-size">-</div>
+      </div>
+    </div>
+    <div id="score">
+      <h1>
+        תוצאה
+      </h1>
+      <h2 id="score-count">
+        0
+      </h2>
+    </div>
+    <script src="./simon.js"></script>
+  </body>
+</html>
